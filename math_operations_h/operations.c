@@ -31,3 +31,12 @@ extern long OPR_lFatorial(long lNumber){
 
    return lAux;
 }
+
+extern int OPR_iModulo(int iNumber){
+
+   if(iNumber < 0){
+      return (iNumber * -1);
+   }
+
+   return iNumber;
+}

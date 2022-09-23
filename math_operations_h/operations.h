@@ -12,6 +12,7 @@ extern int OPR_iPotencia(int iNum1, int iExp);
 
 extern long OPR_lFatorial(long lNumber);
 
+extern int OPR_iModulo(int iNumber);
 
 #endif /* _CRT_SEC_INCLUDED_ */
 
