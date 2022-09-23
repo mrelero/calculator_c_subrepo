@@ -20,3 +20,14 @@ int OPR_iPotencia(int iNum1, int iExp){
    }
    return iAux;
 }
+
+extern long OPR_lFatorial(long lNumber){
+   long lAux;
+   long lIndex;
+   lAux = 1;
+   for(lIndex = 1; lIndex <= lNumber; lIndex++){
+      lAux = lIndex * lAux;
+   }
+
+   return lAux;
+}

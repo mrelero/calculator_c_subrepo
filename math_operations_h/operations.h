@@ -10,6 +10,8 @@ extern int OPR_iProduto(int iNum1, int iNum2);
 
 extern int OPR_iPotencia(int iNum1, int iExp);
 
+extern long OPR_lFatorial(long lNumber);
+
 
 #endif /* _CRT_SEC_INCLUDED_ */
 
