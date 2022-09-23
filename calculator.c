@@ -6,6 +6,7 @@ enum OperationsEnum {
    SOMA,
    PRODUTO,
    EXP,
+   FATORIAL,
 
    MAX_OPERATIONS
 
@@ -18,7 +19,7 @@ int main (void){
    int iNumber2;
    while (1)
    {
-      printf("Selecione uma Operacao: \n 0 - Somar 2 Numeros \n 1 - Produto \n 2 - Exponencial \n %d - Sair\n", MAX_OPERATIONS);
+      printf("Selecione uma Operacao: \n 0 - Somar 2 Numeros \n 1 - Produto \n 2 - Exponencial \n 3 - Fatorial \n %d - Sair\n", MAX_OPERATIONS);
       scanf_s("%d", &eSelect);
       switch (eSelect)
       {
@@ -44,6 +45,11 @@ int main (void){
          printf("Digite Expoente:\n");
          scanf_s("%d", &iNumber2);
          printf("Exponencial igual: %d \n", OPR_iPotencia(iNumber1, iNumber2));
+         break;
+      case FATORIAL:
+         printf("Digite Numero:\n");
+         scanf_s("%d", &iNumber1);
+         printf("Fatorial igual: %d \n", OPR_lFatorial(iNumber1));
          break;
       case MAX_OPERATIONS:
       default:
