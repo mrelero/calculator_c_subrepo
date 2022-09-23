@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/mrelero/math_operations_h
+	branch = main
+	commit = 16dbbabd676230722baa3b9f607f5f670f81721a
+	parent = 0f25b5152e7710de5a32e9d8276e9026be8d6f7e
+	method = merge
+	cmdver = 0.4.3
