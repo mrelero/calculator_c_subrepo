@@ -40,3 +40,37 @@ extern int OPR_iModulo(int iNumber){
 
    return iNumber;
 }
+
+extern int OPR_iIsOdd(int iNumber){
+
+   if(iNumber%2 == 0){
+      return 0;
+   }
+
+   return 1;
+}
+
+extern float OPR_fDiv(float fDenominador, float fDividendo){
+   return fDenominador / fDividendo;
+}
+
+
+extern long OPR_l10Exp(int iExp){
+   long lAux;
+   int iMult;
+   lAux = 1;
+   for (iMult = 1; iMult <= iExp; iMult++) {
+      lAux = 10 * lAux;
+   }
+   return lAux;
+}
+
+
+extern int OPR_iCube(int iNumber){
+   return iNumber * iNumber * iNumber;
+}
+
+extern int OPR_i2x(int iNumber){
+   
+   return 2 * iNumber;
+}
