@@ -16,9 +16,7 @@ extern int OPR_iModulo(int iNumber);
 
 extern int OPR_iIsOdd(int iNumber);
 
-extern float OPR_fDiv(float fDenominador, float fDividendo);
-
-extern float OPR_fDiv(float fDenominador, float fDividendo);
+extern float OPR_fDiv(float fNumerador, float fDenominador);
 
 extern long OPR_l10Exp(int iExp);
 

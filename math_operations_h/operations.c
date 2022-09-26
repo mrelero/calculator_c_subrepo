@@ -50,8 +50,8 @@ extern int OPR_iIsOdd(int iNumber){
    return 1;
 }
 
-extern float OPR_fDiv(float fDenominador, float fDividendo){
-   return fDenominador / fDividendo;
+extern float OPR_fDiv(float fNumerador, float fDenominador){
+   return fNumerador / fDenominador;
 }
 
 
