@@ -1,5 +1,7 @@
 #include "operations.h"
 
+#define TRUE   1
+#define FALSE  0
 
 OPR_iSoma(int iNum1, int iNum2, int iNum3){
    return iNum1 + iNum2 + iNum3;
@@ -44,10 +46,10 @@ extern int OPR_iModulo(int iNumber){
 extern int OPR_iIsOdd(int iNumber){
 
    if(iNumber%2 == 0){
-      return 0;
+      return FALSE;
    }
 
-   return 1;
+   return TRUE;
 }
 
 extern float OPR_fDiv(float fNumerador, float fDenominador){
