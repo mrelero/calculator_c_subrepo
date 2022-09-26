@@ -76,3 +76,18 @@ extern int OPR_i2x(int iNumber){
    
    return 2 * iNumber;
 }
+
+
+extern int OPR_iSumArray(int *piArray, int iLenght){
+   int iIndex;
+   int iAux = 0;
+   for(iIndex = 0; iIndex < iLenght; iIndex++){
+      iAux = iAux + piArray[iIndex];
+   }
+   
+   return iAux;
+}
+
+extern float OPR_iInvert(float fNumber){
+   return 1 / fNumber;
+}

@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/mrelero/math_operations_h
 	branch = main
-	commit = 07955012dbbc1add765630fea0853923366d6f38
+	commit = 24f38f46ea12b10df169db260e71c3ba86649eef
 	parent = 2daf32fb1f734c6cc6e67b9a06f8953dffd394f4
 	method = merge
 	cmdver = 0.4.3

@@ -23,6 +23,10 @@ extern long OPR_l10Exp(int iExp);
 extern int OPR_iCube(int iNumber);
 
 extern int OPR_i2x(int iNumber);
+
+extern int OPR_iSumArray(int* piArray, int iLenght);
+
+extern float OPR_iInvert(float fNumber);
 #endif /* _CRT_SEC_INCLUDED_ */
 
 
