@@ -11,14 +11,14 @@ int OPR_iProduto(int iNum1, int iNum2){
    return iNum1 * iNum2;
 }
 
-int OPR_iPotencia(int iNum1, int iExp){
-   int iAux;
-   int iMult;
-   iAux = 1;
-   for(iMult = 1; iMult <= iExp; iMult++){
-      iAux = iNum1 * iAux;
+long OPR_iPotencia(long lNum1, long lExp){
+   long lAux;
+   long lMult;
+   lAux = 1;
+   for(lMult = 1; lMult <= lExp; lMult++){
+      lAux = lNum1 * lAux;
    }
-   return iAux;
+   return lAux;
 }
 
 extern long OPR_lFatorial(long lNumber){
